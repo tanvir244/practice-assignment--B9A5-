@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Ticket</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+
+<body class="w-[90%] md:max-w-6xl mx-auto">
+    <!-- header -->
+    <header>
+        <nav class="flex justify-between items-center py-8">
+            <h1 class="text-lg md:text-3xl font-bold">E-Ticket</h1>
+            <ul class="flex gap-2 md:gap-2 items-center text-sm md:text-base text-[#51545c] font-semibold">
+                <li class="py-2 md:px-4">Home</li>
+                <li class="py-2 md:px-4">About</li>
+                <li class="py-2 md:px-4">Ticket</li>
+                <li class="py-2 md:px-4">Info</li>
+            </ul>
+            <div>
+                <button
+                    class="bg-[#e8fbe5] py-2 px-2 md:px-12 text-[#fc9d1d] text-2xl font-semibold flex gap-4 rounded-xl"><span
+                        class="text-xl">Bus</span> <i class="fa-solid fa-car"></i></button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Banner -->
+    <section>
+        <div class="relative w-full h-full md:h-[80vh] bg-center no-repeat bg-cover rounded-lg"
+            style="background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/assets/banner-img.jpg)"
+            class="">
+            <div class="flex flex-col h-[80vh] items-center justify-center">
+                <h1 class="text-5xl font-bold text-center text-[#fc9d1d]">End-to-End Travel with</h1>
+                <div class="text-white w-full md:w-[410px] mx-auto text-center justify-center mt-6">
+                    <h1 class="text-6xl font-bold mb-4">Hanif Paribahan</h1>
+                    <p class="">Yes, you can run unit tests and view the results directly within the app. The integrated
+                        testing features allow for a streamlined .</p>
+                </div>
+                <button class="bg-[#fc9d1d] text-white py-4 px-12 text-lg font-semibold rounded-lg mt-8">Buy
+                    Tickets</button>
+                <!-- cards  -->
+                <div
+                    class="absolute bottom-[-510px] md:bottom-[-75px] w-[90%] mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-6">
+                    <div class="flex justify-between bg-white py-4 px-12 gap-4 rounded-xl border-b-4 border-[#fc9d1d]">
+                        <image src="/assets/people.png" class="w-[100px] mx-auto"></image>
+                        <div class="w-1/2">
+                            <h1 class="text-4xl font-semibold">500K+</h1>
+                            <p class="text-[#51545c]">Registered users</p>
+                        </div>
+                    </div>
+                    <div class="flex justify-between bg-white py-4 px-12 gap-4 rounded-xl border-b-4 border-[#fc9d1d]">
+                        <image src="/assets/ticket-cupon.png" class="w-[100px] mx-auto"></image>
+                        <div class="w-1/2">
+                            <h1 class="text-4xl font-semibold">1.7 lacks</h1>
+                            <p class="text-[#51545c]">Tickets sold</p>
+                        </div>
+                    </div>
+                    <div class="flex justify-between bg-white py-4 px-12 gap-4 rounded-xl border-b-4 border-[#fc9d1d]">
+                        <image src="/assets/stoppage.png" class="w-[100px] mx-auto"></image>
+                        <div class="w-1/2">
+                            <h1 class="text-4xl font-semibold">80K+</h1>
+                            <p class="text-[#51545c]">Rental partners</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- offer section -->
+    <section class="mt-[580px] md:mt-32">
+        <div class="font-semibold">
+            <h1 class="text-5xl text-center mb-8">Best offers for you</h1>
+            <div class="flex flex-col md:flex-row justify-between gap-8">
+                <div class="w-full md:w-1/2 bg-[#fc9d1d] p-14 flex justify-between rounded-xl">
+                    <div class="w-[70%] border-dotted border-r-4 border-white">
+                        <h2 class="text-4xl font-semibold mb-4">15% OFF</h2>
+                        <p class="text-xl mb-2">on your next purchase</p>
+                        <p>use by January 2024</p>
+                    </div>
+                    <div class="w-[30%] pl-8">
+                        <h2 class="text-3xl font-semibold mb-1">NEW15</h2>
+                        <p>Cupon Code</p>
+                    </div>
+                </div>
+                <div class="w-full md:w-1/2 bg-[#f78c9c] p-14 flex justify-between rounded-xl">
+                    <div class="w-[70%] border-dotted border-r-4 border-white">
+                        <h2 class="text-4xl font-semibold mb-4">20% OFF</h2>
+                        <p class="text-xl mb-2">on your next purchase</p>
+                        <p>use by January 2024</p>
+                    </div>
+                    <div class="w-[30%] pl-8">
+                        <h2 class="text-3xl font-semibold mb-1">Couple 20</h2>
+                        <p>Cupon Code</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- info section -->
+    <section class="my-20">
+        <div class="w-[480px] text-center mx-auto">
+            <h1 class="text-5xl font-bold mb-4">Hanif Paribahan</h1>
+            <p class="text-[#4f5259]">Yes, you can run unit tests and view the results directly within the app. The
+                integrated testing features allow for a streamlined .</p>
+        </div>
+        <div class="mt-12 flex flex-col md:flex-row">
+            <div class=" md:w-[80%] border-dotted border-b-4 md:border-b-0 md:border-r-4 border-[#fc9d1d] pb-8 md:pr-8">
+                <div class="flex flex-col md:flex-row justify-between gap-4 md:gap-0">
+                    <div class="flex items-center gap-6">
+                        <div>
+                            <img src="/assets/bus-logo.png" alt="">
+                        </div>
+                        <div class="">
+                            <h3 class="text-4xl font-semibold mb-2">Hanif Paribahan</h3>
+                            <p class="text-[#4f5259] text-md font-semibold">Coach-009-WEB ! AC_Business</p>
+                        </div>
+                    </div>
+                    <div class="w-full md:w-[200px] bg-[#ddf8d9] px-2 py-4 flex gap-4 ">
+                        <img src="/assets/seat-green.png" alt="">
+                        <p class="font-bold flex items-center">40 Seats left</p>
+                    </div>
+                </div>
+                <div class="my-8 space-y-4">
+                    <div class="flex justify-between">
+                        <h5 class="text-xl text-[#4f5259]">Route</h5>
+                        <h5 class="text-xl text-black font-bold">Dhaka - Sylhet</h5>
+                    </div>
+                    <div class="flex justify-between">
+                        <h5 class="text-xl text-[#4f5259]">Departure Time</h5>
+                        <h5 class="text-xl text-black font-bold">9:00 PM</h5>
+                    </div>
+                </div>
+                <div class="flex flex-col md:flex-row gap-4 items-center justify-between">
+                    <div class="w-full md:w-[320px] bg-[#eaebeb] p-4 rounded-xl">Boarding Point - Laxmipur</div>
+                    <div class="w-full md:w-[320px] bg-[#eaebeb] p-4 rounded-xl">Dropping Point - Bogura</div>
+                    <div class="w-full md:w-[320px] bg-[#eaebeb] p-4 rounded-xl">Est. Time - 11 Hour</div>
+                </div>
+            </div>
+            <div class=" md:w-[20%] mt-12 md:mt-0 text-center flex flex-col items-center justify-center">
+                <img src="/assets/fare.png" alt="" class="w-[60px] mx-auto">
+                <h1 class="text-5xl">500TK</h1>
+                <p class="text-[#4f5259] text-lg font-semibold">per seat</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Ticket Section -->
+    <section>
+        <div class="flex flex-col md:flex-row gap-24">
+            <div class="w-full md:w-[65%]">
+                <h1 class="text-4xl font-bold">Select Your Seat</h1>
+                <div class="py-3 my-6 border-dotted border-y-2 border-[#4f5259] flex justify-between">
+                    <div class="flex gap-4">
+                        <img src="/assets/seat-green.png" />
+                        <h4 class="font-semibold">Available</h4>
+                    </div>
+                    <div class="flex gap-4">
+                        <img src="/assets/seat-green-filled.png" />
+                        <h4 class="font-semibold">Selected</h4>
+                    </div>
+                </div>
+                <div class="flex justify-end">
+                    <div class="flex bg-[#e5e5e6] w-[90px] border border-black p-2  rounded-lg">
+                        <img src="/assets/wheel.svg" alt="" class="flex flex-end">
+                    </div>
+                </div>
+                <div class="flex flex-row gap-16 md:gap-24 mt-8">
+                    <div class="w-[60%] grid grid-cols-3 gap-8">
+                        <div id="A3" onclick="selectTicet(this)" class="bg-[#e5e5e6] p-4 text-center rounded-lg cursor-pointer">
+                            A1
+                        </div>
+                        <div id="A2" onclick="selectTicet(this)" class="bg-[#e5e5e6] p-4 text-center rounded-lg cursor-pointer">
+                            A2
+                        </div>
+                        <div id="A3" onclick="selectTicet(this)" class="bg-[#e5e5e6] p-4 text-center rounded-lg cursor-pointer">
+                           A3
+                        </div>
+                        <div id="A4" onclick="selectTicet(this)" class="bg-[#e5e5e6] p-4 text-center rounded-lg cursor-pointer">
+                            B1
+                        </div>
+                        <div id="B1" onclick="selectTicet(this)" class="bg-[#e5e5e6] p-4 text-center rounded-lg cursor-pointer">
+                            B2
+                        </div>
+                        <div id="B2" onclick="selectTicet(this)" class="bg-[#e5e5e6] p-4 text-center rounded-lg cursor-pointer">
+                            B3
+                        </div>
+                        <div id="C1" onclick="selectTicet(this)" class="bg-[#e5e5e6] p-4 text-center rounded-lg cursor-pointer">
+                            C1
+                        </div>
+                        <div id="C2" onclick="selectTicet(this)" class="bg-[#e5e5e6] p-4 text-center rounded-lg cursor-pointer">
+                            <span>C2</span>
+                        </div>
+                        <div id="C2" onclick="selectTicet(this)" class="bg-[#e5e5e6] p-4 text-center rounded-lg cursor-pointer">
+                            <span>C3</span>
+                        </div>
+                        <div id="D1" onclick="selectTicet(this)" class="bg-[#e5e5e6] p-4 text-center rounded-lg cursor-pointer">
+                            <span>D1</span>
+                        </div>
+                        <div id="D2" onclick="selectTicet(this)" class="bg-[#e5e5e6] p-4 text-center rounded-lg cursor-pointer">
+                            <span>D2</span>
+                        </div>
+                        <div id="D3" onclick="selectTicet(this)" class="bg-[#e5e5e6] p-4 text-center rounded-lg cursor-pointer">
+                            <span>D3</span>
+                        </div>
+                    </div>
+                    <div class="w-[40%] grid grid-cols-2 gap-8">
+                        <div id="A4" onclick="selectTicet(this)" class="bg-[#e5e5e6] p-4 text-center rounded-lg cursor-pointer">
+                            <span>A4</span>
+                        </div>
+                        <div id="A5" onclick="selectTicet(this)" class="bg-[#e5e5e6] p-4 text-center rounded-lg cursor-pointer">
+                            <span>A5</span>
+                        </div>
+                        <div id="B4" onclick="selectTicet(this)" class="bg-[#e5e5e6] p-4 text-center rounded-lg cursor-pointer">
+                            <span>B4</span>
+                        </div>
+                        <div id="B5" onclick="selectTicet(this)" class="bg-[#e5e5e6] p-4 text-center rounded-lg cursor-pointer">
+                            <span>B5</span>
+                        </div>
+                        <div id="C4" onclick="selectTicet(this)" class="bg-[#e5e5e6] p-4 text-center rounded-lg cursor-pointer">
+                            <span>C4</span>
+                        </div>
+                        <div id="C5" onclick="selectTicet(this)" class="bg-[#e5e5e6] p-4 text-center rounded-lg cursor-pointer">
+                            <span>C5</span>
+                        </div>
+                        <div id="D4" onclick="selectTicet(this)" class="bg-[#e5e5e6] p-4 text-center rounded-lg cursor-pointer">
+                            <span>D4</span>
+                        </div>
+                        <div id="D5" onclick="selectTicet(this)" class="bg-[#e5e5e6] p-4 text-center rounded-lg cursor-pointer">
+                            <span>D5</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="w-full md:w-[35%]">
+                <h1 class="text-4xl font-bold border-dotted border-b-2 border-[#4f5259] pb-6">Your Selection</h1>
+                <div class="w-[70%] mx-auto bg-[#e5e5e6] p-4 rounded-lg mt-4">
+                    <div class="collection">
+                        <div class="flex justify-between text-sm font-bold text-[#4f5259] mt-6">
+                            <div>Seat <span class="ticket bg-[#1dd100] text-white px-2 rounded-lg">0</span></div>
+                            <div>Class</div>
+                            <div>Price</div>
+                        </div>
+                        <!-- <div class="flex justify-between text-sm font-bold text-black mt-6">
+                            <div>A4</div>
+                            <div>Economy</div>
+                            <div>550</div>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section class="mt-48"></section>
+    <!-- js file -->
+     <script src="/app.js"></script>
+</body>
+
+</html>
